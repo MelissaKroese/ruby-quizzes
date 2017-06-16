@@ -17,3 +17,8 @@ end
 # counts: {'1' => 1, '3' => 2, '5' => 1}
 
 puts counts
+
+# Desired output: "1(3) 3(3) 5(2) 7(1)"
+counts.each do |k, v|
+  # TODO: ...
+end
